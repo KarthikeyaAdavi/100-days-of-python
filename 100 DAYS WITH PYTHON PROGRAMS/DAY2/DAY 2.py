@@ -39,4 +39,7 @@ Bill_Amount_Entry.pack(padx=5,pady=10)
 Bill_Generate_Button=Button(root,text="Generate bill per person:",command=Bill_calculator)
 Bill_Generate_Button.pack(padx=5,pady=5)
 
+#Button to exit main loop
+exit_button=Button(root,text="Exit",command=root.destroy)
+exit_button.pack(pady=2)
 root.mainloop()
