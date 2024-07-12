@@ -4,7 +4,7 @@ from tkinter import *
 #Basic features of the application
 root=Tk()
 root.title("Band Name generator!")
-img = PhotoImage(file='')
+img = PhotoImage(file='download.png')
 root.iconphoto(False, img)
 root.geometry("400x300")
 
@@ -19,7 +19,7 @@ def band_name_generator():
 #data collection for city name and pet name
 City_Name_Label=Label(root,text="Please Enter the name of the city you were born in:")
 City_name_entry=Entry(root,width=50,borderwidth=10)
-Pet_Name_Label=Label(root,text="Please Enter the name of the city you were born in:")
+Pet_Name_Label=Label(root,text="Please Enter the name of the pet you have:")
 Pet_name_entry=Entry(root,width=50,borderwidth=10)
 City_Name_Label.pack(pady=5)
 City_name_entry.pack(padx=10,pady=20)
